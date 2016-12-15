@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C945C1ED1E0231F100F7C2DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C1EC1E0231F100F7C2DA /* main.m */; };
+		C945C1F01E0231F100F7C2DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C1EF1E0231F100F7C2DA /* AppDelegate.m */; };
+		C945C1F31E0231F100F7C2DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C1F21E0231F100F7C2DA /* ViewController.m */; };
+		C945C1F61E0231F100F7C2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945C1F41E0231F100F7C2DA /* Main.storyboard */; };
+		C945C1F81E0231F100F7C2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C945C1F71E0231F100F7C2DA /* Assets.xcassets */; };
+		C945C1FB1E0231F100F7C2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C945C1F91E0231F100F7C2DA /* LaunchScreen.storyboard */; };
+		C945C20F1E02327200F7C2DA /* ETEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C2051E02327200F7C2DA /* ETEAGLLayer.m */; };
+		C945C2101E02327200F7C2DA /* ETDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C2081E02327200F7C2DA /* ETDecoder.m */; };
+		C945C2111E02327200F7C2DA /* ETH264Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C20C1E02327200F7C2DA /* ETH264Parser.m */; };
+		C945C2121E02327200F7C2DA /* ETVideoPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C20E1E02327200F7C2DA /* ETVideoPacket.m */; };
+		C945C2161E0235B800F7C2DA /* ETMediaClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C945C2151E0235B800F7C2DA /* ETMediaClient.m */; };
+		C945C2181E02489900F7C2DA /* VGA.h264 in Resources */ = {isa = PBXBuildFile; fileRef = C945C2171E02489900F7C2DA /* VGA.h264 */; };
+		C945C21A1E025BCE00F7C2DA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C945C2191E025BCE00F7C2DA /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C945C1E81E0231F100F7C2DA /* iOSHardDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSHardDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C945C1EC1E0231F100F7C2DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C945C1EE1E0231F100F7C2DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C945C1EF1E0231F100F7C2DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C945C1F11E0231F100F7C2DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C945C1F21E0231F100F7C2DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C945C1F51E0231F100F7C2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C945C1F71E0231F100F7C2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C945C1FA1E0231F100F7C2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C945C1FC1E0231F100F7C2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C945C2041E02327200F7C2DA /* ETEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETEAGLLayer.h; sourceTree = "<group>"; };
+		C945C2051E02327200F7C2DA /* ETEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETEAGLLayer.m; sourceTree = "<group>"; };
+		C945C2071E02327200F7C2DA /* ETDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDecoder.h; sourceTree = "<group>"; };
+		C945C2081E02327200F7C2DA /* ETDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDecoder.m; sourceTree = "<group>"; };
+		C945C2091E02327200F7C2DA /* ETDecoderHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDecoderHeader.h; sourceTree = "<group>"; };
+		C945C20B1E02327200F7C2DA /* ETH264Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETH264Parser.h; sourceTree = "<group>"; };
+		C945C20C1E02327200F7C2DA /* ETH264Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETH264Parser.m; sourceTree = "<group>"; };
+		C945C20D1E02327200F7C2DA /* ETVideoPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETVideoPacket.h; sourceTree = "<group>"; };
+		C945C20E1E02327200F7C2DA /* ETVideoPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETVideoPacket.m; sourceTree = "<group>"; };
+		C945C2141E0235B800F7C2DA /* ETMediaClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMediaClient.h; sourceTree = "<group>"; };
+		C945C2151E0235B800F7C2DA /* ETMediaClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMediaClient.m; sourceTree = "<group>"; };
+		C945C2171E02489900F7C2DA /* VGA.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VGA.h264; sourceTree = "<group>"; };
+		C945C2191E025BCE00F7C2DA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C945C1E51E0231F100F7C2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C945C1DF1E0231F100F7C2DA = {
+			isa = PBXGroup;
+			children = (
+				C945C1EA1E0231F100F7C2DA /* iOSHardDecoder */,
+				C945C1E91E0231F100F7C2DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C945C1E91E0231F100F7C2DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C945C1E81E0231F100F7C2DA /* iOSHardDecoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C945C1EA1E0231F100F7C2DA /* iOSHardDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				C945C2191E025BCE00F7C2DA /* icon.png */,
+				C945C2171E02489900F7C2DA /* VGA.h264 */,
+				C945C2021E02327200F7C2DA /* ETDecoder */,
+				C945C1EE1E0231F100F7C2DA /* AppDelegate.h */,
+				C945C1EF1E0231F100F7C2DA /* AppDelegate.m */,
+				C945C1F11E0231F100F7C2DA /* ViewController.h */,
+				C945C1F21E0231F100F7C2DA /* ViewController.m */,
+				C945C1F41E0231F100F7C2DA /* Main.storyboard */,
+				C945C1F71E0231F100F7C2DA /* Assets.xcassets */,
+				C945C1F91E0231F100F7C2DA /* LaunchScreen.storyboard */,
+				C945C1FC1E0231F100F7C2DA /* Info.plist */,
+				C945C1EB1E0231F100F7C2DA /* Supporting Files */,
+			);
+			path = iOSHardDecoder;
+			sourceTree = "<group>";
+		};
+		C945C1EB1E0231F100F7C2DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C945C1EC1E0231F100F7C2DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C945C2021E02327200F7C2DA /* ETDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				C945C2131E0235A000F7C2DA /* ETMediaClient */,
+				C945C2031E02327200F7C2DA /* EAGLLayer */,
+				C945C2061E02327200F7C2DA /* ETCodec */,
+				C945C20A1E02327200F7C2DA /* ETVideoParser */,
+			);
+			path = ETDecoder;
+			sourceTree = "<group>";
+		};
+		C945C2031E02327200F7C2DA /* EAGLLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C945C2041E02327200F7C2DA /* ETEAGLLayer.h */,
+				C945C2051E02327200F7C2DA /* ETEAGLLayer.m */,
+			);
+			path = EAGLLayer;
+			sourceTree = "<group>";
+		};
+		C945C2061E02327200F7C2DA /* ETCodec */ = {
+			isa = PBXGroup;
+			children = (
+				C945C2071E02327200F7C2DA /* ETDecoder.h */,
+				C945C2081E02327200F7C2DA /* ETDecoder.m */,
+				C945C2091E02327200F7C2DA /* ETDecoderHeader.h */,
+			);
+			path = ETCodec;
+			sourceTree = "<group>";
+		};
+		C945C20A1E02327200F7C2DA /* ETVideoParser */ = {
+			isa = PBXGroup;
+			children = (
+				C945C20B1E02327200F7C2DA /* ETH264Parser.h */,
+				C945C20C1E02327200F7C2DA /* ETH264Parser.m */,
+				C945C20D1E02327200F7C2DA /* ETVideoPacket.h */,
+				C945C20E1E02327200F7C2DA /* ETVideoPacket.m */,
+			);
+			path = ETVideoParser;
+			sourceTree = "<group>";
+		};
+		C945C2131E0235A000F7C2DA /* ETMediaClient */ = {
+			isa = PBXGroup;
+			children = (
+				C945C2141E0235B800F7C2DA /* ETMediaClient.h */,
+				C945C2151E0235B800F7C2DA /* ETMediaClient.m */,
+			);
+			path = ETMediaClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C945C1E71E0231F100F7C2DA /* iOSHardDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C945C1FF1E0231F100F7C2DA /* Build configuration list for PBXNativeTarget "iOSHardDecoder" */;
+			buildPhases = (
+				C945C1E41E0231F100F7C2DA /* Sources */,
+				C945C1E51E0231F100F7C2DA /* Frameworks */,
+				C945C1E61E0231F100F7C2DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSHardDecoder;
+			productName = iOSHardDecoder;
+			productReference = C945C1E81E0231F100F7C2DA /* iOSHardDecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C945C1E01E0231F100F7C2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ethan.Luo;
+				TargetAttributes = {
+					C945C1E71E0231F100F7C2DA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49ECEYK7XH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C945C1E31E0231F100F7C2DA /* Build configuration list for PBXProject "iOSHardDecoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C945C1DF1E0231F100F7C2DA;
+			productRefGroup = C945C1E91E0231F100F7C2DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C945C1E71E0231F100F7C2DA /* iOSHardDecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C945C1E61E0231F100F7C2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945C2181E02489900F7C2DA /* VGA.h264 in Resources */,
+				C945C21A1E025BCE00F7C2DA /* icon.png in Resources */,
+				C945C1FB1E0231F100F7C2DA /* LaunchScreen.storyboard in Resources */,
+				C945C1F81E0231F100F7C2DA /* Assets.xcassets in Resources */,
+				C945C1F61E0231F100F7C2DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C945C1E41E0231F100F7C2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C945C1F31E0231F100F7C2DA /* ViewController.m in Sources */,
+				C945C1F01E0231F100F7C2DA /* AppDelegate.m in Sources */,
+				C945C2161E0235B800F7C2DA /* ETMediaClient.m in Sources */,
+				C945C1ED1E0231F100F7C2DA /* main.m in Sources */,
+				C945C20F1E02327200F7C2DA /* ETEAGLLayer.m in Sources */,
+				C945C2121E02327200F7C2DA /* ETVideoPacket.m in Sources */,
+				C945C2101E02327200F7C2DA /* ETDecoder.m in Sources */,
+				C945C2111E02327200F7C2DA /* ETH264Parser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C945C1F41E0231F100F7C2DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945C1F51E0231F100F7C2DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C945C1F91E0231F100F7C2DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C945C1FA1E0231F100F7C2DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C945C1FD1E0231F100F7C2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C945C1FE1E0231F100F7C2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C945C2001E0231F100F7C2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49ECEYK7XH;
+				INFOPLIST_FILE = iOSHardDecoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EthanLuo.iOSHardDecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C945C2011E0231F100F7C2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 49ECEYK7XH;
+				INFOPLIST_FILE = iOSHardDecoder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EthanLuo.iOSHardDecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C945C1E31E0231F100F7C2DA /* Build configuration list for PBXProject "iOSHardDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945C1FD1E0231F100F7C2DA /* Debug */,
+				C945C1FE1E0231F100F7C2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C945C1FF1E0231F100F7C2DA /* Build configuration list for PBXNativeTarget "iOSHardDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C945C2001E0231F100F7C2DA /* Debug */,
+				C945C2011E0231F100F7C2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C945C1E01E0231F100F7C2DA /* Project object */;
+}
